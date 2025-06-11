@@ -19,8 +19,5 @@ services:
   imallinone:
     image: dev.longxiaoyi01.heiyu.space/lzc-vnc-test:0.0.2
     binds:
-      - /lzcapp/run/home/imallinone/QQ:/home/lazycat/.config/QQ
-      - /lzcapp/run/home/imallinone/firefox:/home/lazycat/.mozilla
-      - /lzcapp/run/home/imallinone/wechat:/home/lazycat/Documents/xwechat_files
-      - /lzcapp/run/home/imallinone/wechat-cache:/home/lazycat/.xwechat
-      - /lzcapp/run/home/imallinone/telegram:/home/lazycat/.local/share/TelegramDesktop
+      - /lzcapp/run/home/:/home/lazycat/
+    
