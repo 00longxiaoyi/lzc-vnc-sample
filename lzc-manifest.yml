@@ -7,7 +7,7 @@ license: https://choosealicense.com/licenses/mit/
 homepage:
 author:
 application:
-  subdomain: im
+  subdomain: im2
   routes:
     - /=http://imallinone.ltp.lzcapp.nvc.lzcapp:6901
   depends_on:
@@ -17,7 +17,5 @@ application:
 
 services:
   imallinone:
-    image: dev.longxiaoyi01.heiyu.space/lzc-vnc-test:0.0.2
-    binds:
-      - /lzcapp/run/home/:/home/lazycat/
+    image: dev.abby.heiyu.space/lzc-vnc-test:0.0.3
     
